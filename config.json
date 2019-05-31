@@ -1,0 +1,21 @@
+{
+  "address": "ipadress:8006",
+  "username": "root",
+  "password": "password",
+  "node": "vps5",
+  "targets": ["vps3", "vps4"],
+
+  "mail": {
+    "activated": true,
+    "template": "./mail.html",
+    "subject": "Important, migration de votre serveur",
+    "from": "test@test.fr",
+    "smtp": {
+      "server": "smtpserver",
+      "port": 587,
+      "username": "test@test.fr",
+      "password": "password",
+      "throttle": 5
+    }
+  }
+}
